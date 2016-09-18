@@ -184,7 +184,7 @@ After writing the definition of the objective function F(x) and its gradient G(x
 
 The one of the simplest C<&progress> callback function would be like the following:
 
-    sub lbfgs_progress_t($instance, $x, $g, $fx, $xnorm, $gnorm, $step, $n, $k, $ls) returns Int {
+    my &progress = sub ($instance, $x, $g, $fx, $xnorm, $gnorm, $step, $n, $k, $ls --> Int) {
     	"Iteration $k".say;
     	"fx = $fx, x[0] = $x[0], x[1] = $x[1]".say;
     	return 0;
