@@ -270,6 +270,8 @@ Copyright 1990 Jorge Nocedal
 
 Copyright 2007-2010 Naoki Okazaki
 
+libLBFGS by Naoki Okazaki is licensed under the MIT License.
+
 This library is free software; you can redistribute it and/or modify it under the terms of the MIT License.
 
 =head1 SEE ALSO
