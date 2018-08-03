@@ -17,10 +17,8 @@
     "Algorithm::LBFGS::Parameter" : "lib/Algorithm/LBFGS/Parameter.pm6",
     "Algorithm::LBFGS::Status" : "lib/Algorithm/LBFGS/Status.pm6"
   },
-  "resources" : [
-    "libraries/liblbfgs"
-  ],
-  "source-url" : "git://github.com/titsuki/p6-Algorithm-LBFGS.git",
+  "resource": [ "libraries/liblbfgs.so" ],
+  "source-url" : "https://github.com/titsuki/p6-Algorithm-LBFGS.git",
   "tags" : [ ],
   "test-depends" : [ ],
   "version" : "0.0.2"

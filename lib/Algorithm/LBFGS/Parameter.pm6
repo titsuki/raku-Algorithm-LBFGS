@@ -4,7 +4,7 @@ use NativeCall;
 
 my constant ptrsize = nativesizeof(Pointer);
 my constant lbfgsfloatval_t = ptrsize == 8 ?? num64 !! num32;
-my constant $library = %?RESOURCES<libraries/lbfgs>.Str;
+my constant $library = %?RESOURCES<libraries/liblbfgs.so>.Str;
 
 has int32 $.m is rw;
 has lbfgsfloatval_t $.epsilon is rw;
