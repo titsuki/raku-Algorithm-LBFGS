@@ -1,4 +1,4 @@
-unit module Algorithm::LBFGS::Status;
+unit module Algorithm::LBFGS::Status:auth<titsuki>:ver<0.0.3>;
 
 enum STATUS is export (
     # L-BFGS reaches convergence.
