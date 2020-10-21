@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/titsuki/p6-Algorithm-LBFGS.svg?branch=master)](https://travis-ci.org/titsuki/p6-Algorithm-LBFGS)
+[![Build Status](https://travis-ci.org/titsuki/raku-Algorithm-LBFGS.svg?branch=master)](https://travis-ci.org/titsuki/raku-Algorithm-LBFGS)
 
 NAME
 ====
 
-Algorithm::LBFGS - A Perl6 bindings for libLBFGS
+Algorithm::LBFGS - A Raku bindings for libLBFGS
 
 SYNOPSIS
 ========
@@ -26,7 +26,7 @@ SYNOPSIS
 DESCRIPTION
 ===========
 
-Algorithm::LBFGS is a Perl6 bindings for libLBFGS. libLBFGS is a C port of the implementation of Limited-memory Broyden-Fletcher-Goldfarb-Shanno (L-BFGS) method written by Jorge Nocedal.
+Algorithm::LBFGS is a Raku bindings for libLBFGS. libLBFGS is a C port of the implementation of Limited-memory Broyden-Fletcher-Goldfarb-Shanno (L-BFGS) method written by Jorge Nocedal.
 
 The L-BFGS method solves the unconstrainted minimization problem,
 

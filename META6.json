@@ -9,7 +9,7 @@
   "depends" : [
     "NativeHelpers::Array"
   ],
-  "description" : "A Perl6 bindings for libLBFGS",
+  "description" : "A Raku bindings for libLBFGS",
   "license" : "MIT",
   "name" : "Algorithm::LBFGS",
   "perl" : "6.c",
@@ -21,7 +21,7 @@
   "resources" : [
     "libraries/lbfgs"
   ],
-  "source-url" : "git://github.com/titsuki/p6-Algorithm-LBFGS.git",
+  "source-url" : "git://github.com/titsuki/raku-Algorithm-LBFGS.git",
   "tags" : [ ],
   "test-depends" : [ ],
   "version" : "0.0.4"
