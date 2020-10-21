@@ -1,6 +1,6 @@
 use v6;
 
-unit class Algorithm::LBFGS:auth<cpan:TITSUKI>:ver<0.0.4>;
+unit class Algorithm::LBFGS:auth<cpan:TITSUKI>:ver<0.0.5>;
 
 use NativeCall;
 use Algorithm::LBFGS::Parameter;
