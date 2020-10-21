@@ -4,7 +4,9 @@
     "Itsuki Toyota"
   ],
   "build-depends" : [
-    "LibraryMake"
+    "LibraryMake",
+    "Distribution::Builder::MakeFromJSON",
+    "Algorithm::LDA::CustomBuilder"
   ],
   "builder" : "Algorithm::LBFGS::CustomBuilder",
   "depends" : [
