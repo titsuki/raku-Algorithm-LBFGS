@@ -1,11 +1,12 @@
 {
-  "auth" : "titsuki",
+  "auth" : "cpan:TITSUKI",
   "authors" : [
     "Itsuki Toyota"
   ],
   "build-depends" : [
     "LibraryMake"
   ],
+  "builder" : "Algorithm::LBFGS::CustomBuilder",
   "depends" : [
     "NativeHelpers::Array"
   ],
@@ -15,6 +16,7 @@
   "perl" : "6.c",
   "provides" : {
     "Algorithm::LBFGS" : "lib/Algorithm/LBFGS.pm6",
+    "Algorithm::LBFGS::CustomBuilder" : "lib/Algorithm/LBFGS/CustomBuilder.pm6",
     "Algorithm::LBFGS::Parameter" : "lib/Algorithm/LBFGS/Parameter.pm6",
     "Algorithm::LBFGS::Status" : "lib/Algorithm/LBFGS/Status.pm6"
   },
