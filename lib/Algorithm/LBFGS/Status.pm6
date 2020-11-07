@@ -1,4 +1,4 @@
-unit module Algorithm::LBFGS::Status:auth<cpan:TITSUKI>:ver<0.0.5>;
+unit module Algorithm::LBFGS::Status:auth<cpan:TITSUKI>:ver<0.0.6>;
 
 enum STATUS is export (
     # L-BFGS reaches convergence.

@@ -2,6 +2,12 @@ Revision history for Algorithm-LBFGS
 
 {{$NEXT}}
 
+0.0.6  2020-11-07T23:26:45+09:00
+    - Fixes:
+      - Fix incorrect dependency
+    - Additions:
+    - Efficiency:
+
 0.0.5  2020-10-21T15:11:10+09:00
     - Fixes:
       - Use Raku instead of Perl6 [75c3f1]

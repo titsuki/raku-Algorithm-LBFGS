@@ -1,4 +1,4 @@
-unit class Algorithm::LBFGS::Parameter:auth<cpan:TITSUKI>:ver<0.0.5> is repr('CStruct');
+unit class Algorithm::LBFGS::Parameter:auth<cpan:TITSUKI>:ver<0.0.6> is repr('CStruct');
 
 use NativeCall;
 

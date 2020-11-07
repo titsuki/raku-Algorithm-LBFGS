@@ -2,7 +2,7 @@ use v6.c;
 use LibraryMake;
 use Distribution::Builder::MakeFromJSON;
 
-unit class Algorithm::LBFGS::CustomBuilder:ver<0.0.5>:auth<cpan:TITSUKI> is Distribution::Builder::MakeFromJSON;
+unit class Algorithm::LBFGS::CustomBuilder:ver<0.0.6>:auth<cpan:TITSUKI> is Distribution::Builder::MakeFromJSON;
 
 method build(IO() $work-dir = $*CWD) {
     my $workdir = ~$work-dir;
