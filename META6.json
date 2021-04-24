@@ -1,32 +1,34 @@
 {
-  "auth" : "cpan:TITSUKI",
-  "authors" : [
+  "auth": "cpan:TITSUKI",
+  "authors": [
     "Itsuki Toyota"
   ],
-  "build-depends" : [
+  "build-depends": [
     "LibraryMake",
     "Distribution::Builder::MakeFromJSON",
     "Algorithm::LBFGS::CustomBuilder"
   ],
-  "builder" : "Algorithm::LBFGS::CustomBuilder",
-  "depends" : [
+  "builder": "Algorithm::LBFGS::CustomBuilder",
+  "depends": [
     "NativeHelpers::Array"
   ],
-  "description" : "A Raku bindings for libLBFGS",
-  "license" : "MIT",
-  "name" : "Algorithm::LBFGS",
-  "perl" : "6.c",
-  "provides" : {
-    "Algorithm::LBFGS" : "lib/Algorithm/LBFGS.pm6",
-    "Algorithm::LBFGS::CustomBuilder" : "lib/Algorithm/LBFGS/CustomBuilder.pm6",
-    "Algorithm::LBFGS::Parameter" : "lib/Algorithm/LBFGS/Parameter.pm6",
-    "Algorithm::LBFGS::Status" : "lib/Algorithm/LBFGS/Status.pm6"
+  "description": "A Raku bindings for libLBFGS",
+  "license": "MIT",
+  "name": "Algorithm::LBFGS",
+  "perl": "6.c",
+  "provides": {
+    "Algorithm::LBFGS": "lib/Algorithm/LBFGS.pm6",
+    "Algorithm::LBFGS::CustomBuilder": "lib/Algorithm/LBFGS/CustomBuilder.pm6",
+    "Algorithm::LBFGS::Parameter": "lib/Algorithm/LBFGS/Parameter.pm6",
+    "Algorithm::LBFGS::Status": "lib/Algorithm/LBFGS/Status.pm6"
   },
-  "resources" : [
+  "resources": [
     "libraries/lbfgs"
   ],
-  "source-url" : "git://github.com/titsuki/raku-Algorithm-LBFGS.git",
-  "tags" : [ ],
-  "test-depends" : [ ],
-  "version" : "0.0.6"
+  "source-url": "git://github.com/titsuki/raku-Algorithm-LBFGS.git",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.6"
 }

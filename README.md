@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/titsuki/raku-Algorithm-LBFGS.svg?branch=master)](https://travis-ci.com/titsuki/raku-Algorithm-LBFGS)
+[![Actions Status](https://github.com/titsuki/raku-Algorithm-LBFGS/workflows/test/badge.svg)](https://github.com/titsuki/raku-Algorithm-LBFGS/actions)
 
 NAME
 ====
